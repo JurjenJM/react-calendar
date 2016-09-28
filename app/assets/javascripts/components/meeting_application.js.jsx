@@ -1,4 +1,4 @@
-var EventApplication = React.createClass({
+var MeetingApplication = React.createClass({
   render: function() {
     return(
       <div className="container">
