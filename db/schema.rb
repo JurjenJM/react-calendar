@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160928144733) do
+ActiveRecord::Schema.define(version: 20160928145548) do
 
   create_table "meetings", force: :cascade do |t|
     t.string   "topic"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20160928144733) do
     t.boolean  "repeat_monthly"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
+    t.string   "location"
   end
 
 end
